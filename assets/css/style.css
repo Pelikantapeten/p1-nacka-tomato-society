@@ -72,3 +72,9 @@ h1 {
     margin-top: 90px;
 }
 
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/hero-image.jpg') no-repeat center center;
+}
+
