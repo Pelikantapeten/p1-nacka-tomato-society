@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,700;1,500&display=swap');
 
 * {
     margin: 0;
@@ -10,6 +10,10 @@ body {
     font-family: Montserrat, sans-serif;
     font-weight: 300;
     color: #000000;
+}
+
+.red-text {
+    color: #fa1e1e;
 }
 
 /* header */
@@ -27,11 +31,10 @@ h1 {
     letter-spacing: 2px;
     color: #2D5A27;
     margin-left: 20px;
-    
 }
 
 #tomato-logo {
-    color: #b21807;
+    color: #fa1e1e;
 }
 
 #logo {
@@ -70,11 +73,42 @@ h1 {
 
 #hero-header {
     margin-top: 90px;
+    height: 720px;
+    width: 100%;
+    position: relative;
 }
 
 #hero-image {
-    height: 600px;
+    height: 720px;
     width: 100%;
     background: url('../images/hero-image.jpg') no-repeat center center;
 }
+
+#hero-header-content {
+    font-size: 130%;
+    letter-spacing: 4px;
+    position: absolute;
+    width: 480px;
+    height: 160px;
+    bottom: 325px;
+    right: 200px;
+    background-color: #f3f3f3;
+    padding: 2px 0 0 8px;
+    border-radius: 10px;
+}
+
+#hero-header-content h2 {
+    font-size: 190%;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #000000;
+    margin-bottom: 4px;
+}
+
+#hero-header-content p {
+    color: #2D5A27;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
 
