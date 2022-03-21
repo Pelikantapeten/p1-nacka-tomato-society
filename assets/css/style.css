@@ -12,6 +12,23 @@ body {
     color: #000000;
 }
 
+h2 {
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 190%;
+}
+
+h3 {
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 140%;
+}
+
+p {
+    letter-spacing: 1px;
+    font-size: 90%;
+}
+
 .red-text {
     color: #fa1e1e;
 }
@@ -112,4 +129,71 @@ h1 {
     letter-spacing: 2px;
 }
 
+/* About us section */
 
+#about-header {
+    background-color: #f3f3f3;
+    height: 220px;
+    width: 100%;
+    text-align: center;
+    color: #2D5A27;
+    line-height: 220px;
+}
+
+#about-section-content-1 {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#about-left-content {
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+    width: 30%;
+    margin-right: 10px;
+}
+
+#about-right-content {
+    display: inline-block;
+    text-align: left;
+    width: 30%;
+    margin-left: 10px;
+}
+
+#about-main-image {
+    width: 400px;
+}
+
+#about-section-content-2 {
+    height: 390px;
+    background-color: #f3f3f3;
+    text-align: center;
+    padding: 20px 50px 0 50px;
+}
+
+#asc2-left {
+    width: 30%;
+    float: left;
+}
+
+#asc2-right {
+    width: 30%;
+    float: right;
+}
+
+#asc2-middle {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.asc2-paragraph {
+    padding: 12px;
+}
+
+.asc2-header {
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 90%;
+}
