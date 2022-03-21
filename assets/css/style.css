@@ -24,6 +24,7 @@ header {
     width: 100%;
     position: fixed;
     margin-top: -90px;
+    z-index: 20;
 }
 
 h1 {
