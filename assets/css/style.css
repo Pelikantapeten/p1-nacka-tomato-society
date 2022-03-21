@@ -33,6 +33,10 @@ p {
     color: #fa1e1e;
 }
 
+img {
+    border-radius: 5px;
+}
+
 /* header */
 
 header {
@@ -196,4 +200,53 @@ h1 {
     font-weight: 300;
     letter-spacing: 1px;
     font-size: 90%;
+}
+
+/* 2022 Events section */
+
+#event-header {
+    background: url('../images/event-header-image.jpg') no-repeat center center;
+    height: 220px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    line-height: 220px;
+}
+
+.event-wrapper {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.events {
+    margin: 0 0 40px 0;
+}
+
+.event-paragraph {
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+    width: 300px;
+    margin-right: 5px;
+
+}
+
+.event-image {
+    display: inline-block;
+    text-align: left;
+    width: 250px;
+    height: 250px;
+    margin-left: 5px;
+}
+
+.event-paragraph a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+}
+
+.event-paragraph a:hover {
+    color: #2D5A27;
 }
