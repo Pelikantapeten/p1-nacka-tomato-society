@@ -382,3 +382,286 @@ footer {
     padding: 5%;
     color: #2D5A27
 }
+
+/* Media queries */
+
+/* Adaptation for screens below 930px wide and down to 480px wide */
+
+@media screen and (min-width: 480px) and (max-width: 930px) {
+    
+    header {
+        height: 80px;
+        margin-top: -80px;
+    }
+
+    #hero-header {
+        margin-top: 80px;
+    }
+
+    #logo {
+        margin: 20px 0 0 20px;
+        font-size: 200%;
+        
+    }
+
+    #main-menu {
+        clear: both;
+        float: right;
+        
+    }
+
+    #main-menu, #logo {
+        line-height: normal;
+    }
+    
+    #hero-header-content {
+        left: 0%;
+        font-size: 130%;
+    }
+
+    #about-header {
+        line-height: 10;
+    }
+    
+    #about-section-content-1 {
+        text-align: center;
+    }
+    
+    #about-left-content {
+       width: 90%;
+       text-align: center;
+    }
+    
+    #about-right-content {
+       width: 90%; 
+       text-align: center;
+    }
+    
+    #about-main-image {
+        width: 300px;
+        margin-top: 10px;
+    }
+    
+    #about-section-content-2 {
+        height: auto;
+        text-align: center;
+        
+    }
+    
+    #asc2-left {
+        width: 100%;
+        
+        float: none;
+       
+    }
+    
+    #asc2-right {
+        width: 100%;
+        
+        float: none;
+    }
+    
+    #asc2-middle {
+        width: 100%;
+        
+        margin: 0;
+    }
+    
+    .asc2-paragraph {
+        padding: 12px;
+    }
+    
+    .asc2-header {
+        font-weight: 300;
+        letter-spacing: 1px;
+        font-size: 90%;
+    }
+
+    .event-wrapper {
+        text-align: center;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .events {
+        margin: 0 0 40px 0;
+    }
+    
+    .event-paragraph {
+        text-align: center;
+        vertical-align: 0;
+        width: 90%;
+        margin: 0;
+    
+    }
+    
+    .event-image {
+        text-align: center;
+        width: 100%;
+        margin-top: 10px;
+    }
+    
+    .event-paragraph a {
+        text-decoration: none;
+        color: #000000;
+        font-weight: 500;
+    }
+    
+    .event-paragraph a:hover {
+        color: #2D5A27;
+    }
+
+    .contact-form {
+        width: 90%;
+        margin: 0 0 20px 0; 
+    }
+    
+    .contact-details {
+        width: 90%;
+        margin: 0 0 20px 0; 
+    }
+}
+
+/* Adaptation for screens below 480px wide and down */
+
+@media screen and (min-width: 0px) and (max-width: 480px) {
+
+    header {
+        height: 80px;
+        margin-top: -80px;
+    }
+
+    #hero-header {
+        margin-top: 80px;
+    }
+
+    #logo {
+        margin: 20px 0 20px 20px;
+        font-size: 100%;
+    }
+
+    #main-menu {
+        clear: both;
+        float: right; 
+    }
+
+    #main-menu, #logo {
+        line-height: normal;
+    }
+
+    #hero-header-content {
+        font-size: 100%;
+        left: 0%;
+        width: 90%;
+        height: 95px;
+    }
+    
+    #hero-header-content h2 {
+        font-size: 110%;
+    }
+
+    #about-header {
+        line-height: 10;
+    }
+    
+    #about-section-content-1 {
+        text-align: center;
+    }
+    
+    #about-left-content {
+       width: 90%;
+       text-align: center;
+    }
+    
+    #about-right-content {
+       width: 90%; 
+       text-align: center;
+    }
+    
+    #about-main-image {
+        width: 300px;
+        margin-top: 10px;
+    }
+    
+    #about-section-content-2 {
+        height: auto;
+        text-align: center;
+        
+    }
+    
+    #asc2-left {
+        width: 100%;
+        
+        float: none;
+       
+    }
+    
+    #asc2-right {
+        width: 100%;
+        
+        float: none;
+    }
+    
+    #asc2-middle {
+        width: 100%;
+        
+        margin: 0;
+    }
+    
+    .asc2-paragraph {
+        padding: 12px;
+    }
+    
+    .asc2-header {
+        font-weight: 300;
+        letter-spacing: 1px;
+        font-size: 90%;
+    }
+
+    .event-wrapper {
+        text-align: center;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .events {
+        margin: 0 0 40px 0;
+    }
+    
+    .event-paragraph {
+        text-align: center;
+        vertical-align: 0;
+        width: 90%;
+        margin: 0;
+    
+    }
+    
+    .event-image {
+        text-align: center;
+        width: 100%;
+        margin-top: 10px;
+    }
+    
+    .event-paragraph a {
+        text-decoration: none;
+        color: #000000;
+        font-weight: 500;
+    }
+    
+    .event-paragraph a:hover {
+        color: #2D5A27;
+    }
+
+    .contact-form {
+        width: 90%;
+        margin: 0 0 20px 0; 
+    }
+    
+    .contact-details {
+        width: 90%;
+        margin: 0 0 20px 0; 
+    }
+
+}
