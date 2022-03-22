@@ -250,3 +250,119 @@ h1 {
 .event-paragraph a:hover {
     color: #2D5A27;
 }
+
+/* contact section */
+
+#contact-header {
+    background-color: #f3f3f3;
+    height: 220px;
+    width: 100%;
+    text-align: center;
+    color: #2D5A27;
+    line-height: 220px;
+}
+
+#contact-header-text {
+    text-align: center;
+    margin: 20px 0 10px 0;
+}
+
+.contact-wrapper {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    background-color: #f3f3f3;
+    padding: 10px;
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+    width: 30%;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+.contact-details {
+    background-color: #f3f3f3;
+    padding: 10px;
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+    width: 30%;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+.contact-details a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.contact-details a:hover {
+    color: #2D5A27;
+}
+
+.contact-details li {
+    list-style: none;
+}
+
+.contact-details-p {
+    margin-bottom: 10px;
+}
+
+.contact-h2 {
+    text-align: center;
+    font-size: 130%;
+    color: #2D5A27;
+    padding-bottom: 20px;
+}
+
+.input-form {
+    text-align: right;
+    width: 100%;
+}
+
+label {
+    letter-spacing: 1px;
+    font-size: 90%;
+}
+
+.submit-button {
+    background-color: #2D5A27;
+    margin: 3px 0 3px 0;
+    padding: 5px;
+    color: #f3f3f3;
+    border-radius: 3px;
+}
+
+.submit-button:hover {
+    color: #2D5A27;
+    background-color: #fff;
+}
+
+
+
+/* footer - Borrowed code from "Love Running" Project */
+
+footer {
+    height: 200px;
+    background-color: #f3f3f3;
+}
+
+.social-networks-footer {
+    text-align: center;
+}
+
+.social-networks-footer > li {
+    display: inline;
+}
+
+.social-networks-footer i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #2D5A27
+}
