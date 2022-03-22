@@ -325,6 +325,16 @@ h1 {
     width: 100%;
 }
 
+.input-form:hover {
+    background-color: #2D5A27;
+    color: #fff;
+}
+
+.input-form:active {
+    background-color: #2D5A27;
+    color: #fff;
+}
+
 label {
     letter-spacing: 1px;
     font-size: 90%;
@@ -341,6 +351,12 @@ label {
 .submit-button:hover {
     color: #2D5A27;
     background-color: #fff;
+}
+
+#form-info {
+    text-align: center;
+    margin: 5px 0 10px 0; 
+    font-size: 80%;   
 }
 
 
