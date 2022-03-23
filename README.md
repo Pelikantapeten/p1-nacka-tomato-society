@@ -148,24 +148,24 @@ About Us - Image 2
 
 #### 2022 Events Section
 
-  - Descripiton of content
-  - Purpose of section
+  - This section contains a header and three information boxes. The information boxes contains an image and a paragraph.
+  - The purpose of this section is to give the User an understanding on what type of events NTS is providing to its members. Each event has a picture that shows something related to the event type so that it increases the Users curiosity.
 
-![2022 Events Section](/assets/images/readme-images/placeholder-900-630.jpg)
+![2022 Events Section](/assets/images/readme-images/2022-events-section.jpg)
 
 #### Contact and Registration Section
 
-  - Description of content
-  - Purpose of section
+  - The section contains a registration form and contact details to NTS. It also has a map that displays the location too NTS.
+  - The purpose of this section is to make contact and registration as easy as possible. The User uses the form to sign up as a member or to register interest. In order to establish direct contact as easy as possible the section also provides the User with a telephone number and an email.
 
-![Contact and Registration Section](/assets/images/readme-images/placeholder-900-630.jpg)
+![Contact and Registration Section](/assets/images/readme-images/contact-registration-section.jpg)
 
 #### Footer Section
 
-  - Description of content
-  - Purpose of content
+  - The Footer contains four social media links (Facebook, Twitter, YouTube and Instagram) The code for the Footer is borrowed from the Love Running - Project.
+  - The purpose of the Footer is to provide easy access for the User to the different social media platforms were Nacka Tomato Society has a presence.
 
-![Footer](/assets/images/readme-images/placeholder-900-100.jpg)
+![Footer](/assets/images/readme-images/footer-section.png)
 
 ### Features Left to Implement
 
