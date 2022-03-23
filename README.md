@@ -2,14 +2,26 @@
 
 ![Responsive screenshot](/assets/images/readme-images/placeholder-900-630.jpg)
 
-Overview text
+# The purpose with this project
+
+This static website was made to accommodate the needs of a fictional society in the municipality of Nacka in Sweden. The Nacka Tomato Society are aiming to attract more members and promoting their events. The language and layout of the site is aimed to be friendly and inviting. 
+
+The site contains three larger sections and a contact and registration section. Registration is conducted thru a form.
+
+The target audience are adult individuals living in the municipality of Nacka.
+
+This website is the first of five projects that needs to be completed in order to receive a diploma in Software Development from The Code Institute.
+
+Requirements for the project is that the website has to be static and responsive using HTML5 and CSS3.
 
 # Table of Content
 
 + [UX](#ux "UX")
   + [User Demographic](#user-demographic "User Demographic")
-  + [User Goals](#user-goals "User Goals")
   + [User Stories](#user-stories "User Stories")
+    + [Existing Members](#existing-members "Existing Members")
+    + [New Users](#new-users "New Users")
+  + [User Goals](#user-goals "User Goals")
   + [Requirements](#requirements "Requirements")
   + [Design](#design "Design")
     + [Colours](#colours "Colours")
@@ -37,35 +49,60 @@ Overview text
 
 ### User Demographic
 
-Content
+This website is ment for:
 
-### User Goals
-
-Content
+ - Residents in Nacka that want to know more about local communities 
+ - Residents in Nacka that want to become a member of NTS or attend their events.
+ - Residents in Nacka that are members of NTS and want to register for events.
 
 ### User Stories
 
-Content
+#### Existing Members
+
+ - As a Member: I want to be able to see when the yearly events occur.
+ - As a Member: I want to sign up for events.
+ - As a Member: I want to be able to contact the Society.
+
+#### New Users
+
+ - As a new User: I want to know more of my local community.
+ - As a new User: I want to join NTS to learn more about Tomatoes.
+ - As a new User: I want to register for open Events.
+
+### User Goals
+
+ - Find information regarding on local society
+ - Sign up to local events
+ - Join local organisation (Society)
+ - Contact local society
 
 ### Requirements
 
-Content
+A static responsive website that incorporates the technologies I have learned so far that contains some advanced functionality. The development process needs to be well documented through a version controls system such as GitHub.
+
+Required technologies: HTML, CSS
 
 ### Design
 
-Description
+As this is my first project the design has been influenced by the ”Love Running” - project. The code from the footer has been borrowed from that project (commented in the code). My design of the header and hero-header has also been influenced by that project.
+
+My aim has been to create a clean looking website where there is a balance between colors, images and functionality.
+
+The Nacka Tomato Society website is a single page website divided in to sections. Menu is fixed on top in order to ensure easy navigation between the sections.
 
 #### Colours
 
-Color palette
+The colour palette was created using [Coolors](https://fontawesome.com/).
+
+![Colour Palette](/assets/images/readme-images/colour-palette.png)
 
 #### Typography
 
-Content
+The Google Font Montserrat [Google Font Monterrat](https://fonts.google.com/specimen/Montserrat?query=mont) was chosen as the main font with a fallback of Sans-Serif. Font weights of 300, 500 and 700 has been used on the website.
 
 #### Images
 
-Content
+Images has been chosen in accordance to colour and content. The purpose of the website is to give a friendly look and express quality. Images has been sized in order to match design.
 
 ## Features 
 
