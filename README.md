@@ -98,7 +98,7 @@ The colour palette was created using [Coolors](https://fontawesome.com/).
 
 #### Typography
 
-The Google Font Montserrat [Google Font Monterrat](https://fonts.google.com/specimen/Montserrat?query=mont) was chosen as the main font with a fallback of Sans-Serif. Font weights of 300, 500 and 700 has been used on the website.
+The Google Font Montserrat [Google Font Montserrat](https://fonts.google.com/specimen/Montserrat?query=mont) was chosen as the main font with a fallback of Sans-Serif. Font weights of 300, 500 and 700 has been used on the website.
 
 #### Images
 
@@ -106,30 +106,45 @@ Images has been chosen in accordance to colour and content. The purpose of the w
 
 ## Features 
 
-Text here
+The Nacka Tomato Society website is a single page website that consists of these sections:
+
+ - Header (Logo/Menu)
+ - Hero Header
+ - About Us
+ - 2022 Events
+ - Contact and Registration
+ - Footer
+
+In order to make navigation easier between the sections the navigation bar is fixed on top when the user scrolls thru the page.
 
 ### Existing Features
 
 #### Header and Navigation Section
 
-  - Description of content
-  - Text of static
+  - The Header consists of a Logo section, text-based, that is aligned to the right and a Menu that is aligned to the left.
+  - The Header is at a fixed position on top and follows the user as the user scrolls down the page. Menu items are anchored to sections on the website.
 
-![Header and navigation](/assets/images/readme-images/placeholder-900-100.jpg)
+![Header and navigation](/assets/images/readme-images/header-section.png)
 
 #### Hero Header Section
 
-  - Description of content 
-  - Purpose of section
+  - The Hero Header section contains a Hero Image, header and a paragraph.
+  - The section will give user a sense of home grown tomatoes and comfort. The section also contains a header and a paragraph that gives the user a clear message on what this website is about.
 
-![Hero Header Section](/assets/images/readme-images/placeholder-900-630.jpg)
+![Hero Header Section](/assets/images/readme-images/hero-header-section.jpg)
 
 #### About us Section
 
-  - Description of content
-  - Purpose of section
+  - The about us sections is divided in two parts. One informative part with a longer paragraph next to an image with the founder. The second part consists of three images each with a short paragraph on the bottom.
+  - The purpose of the About Us section is to give Users a feel of what NTS is and why it was founded. It also gives the User and idea on what happens on events and gatherings. The images gives a comforting feel.
 
-![About us Section](/assets/images/readme-images/placeholder-900-630.jpg)
+About Us - Image 1
+
+![About us Section part 1](/assets/images/readme-images/about-us-section-1.jpg)
+
+About Us - Image 2
+
+![About us Section part 2](/assets/images/readme-images/about-us-section-2.jpg)
 
 #### 2022 Events Section
 
@@ -193,8 +208,9 @@ The live link can be found here - https://pelikantapeten.github.io/p1-nacka-toma
 
 ## Media
 
-- Envato elements
-- License description
+- All images are downloaded from Envato Elements[Envato Elements](https://elements.envato.com). They are licensed under a broad commercial license that allows them to be used in this project (Named ”P1”). The license allows usage for public purposes.
+
+- [Link to license agreement](https://elements.envato.com/license-terms)
 
 ## Credits 
 
