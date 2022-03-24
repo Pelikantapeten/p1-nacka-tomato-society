@@ -43,7 +43,7 @@ A live version of the project can be found here - https://pelikantapeten.github.
 + [Testing](#testing "Testing")
   + [Validator Testing](#validator-testing "Validator Testing")
   + [Unfixed Bugs](#unfixed-bugs "Unfixed Bugs")
-+ [Deployment](#deployment "Deployment")
++ [Development and Deployment](#development-and-deployment "Development and Deployment")
 + [Content](#content "Content")
 + [Media](#media "Media")
 + [Credits](#credits "Credits")
@@ -179,7 +179,7 @@ About Us - Image 2
 
 ### Features Left to Implement
 
-- Gallery were members can upload inspirational photos.
+- Later versions of this project will contain a member section were members can upload inspirational images.
 
 ## Technologies used
 
@@ -211,9 +211,20 @@ Testing content
 
 Mention unfixed bugs here 
 
-## Deployment
+## Development and Deployment
 
-Describe deployment
+The development environment used for this project was GitPod. To track the development stage and handle version control regular commits and pushes to GitHub has been conducted. The GitPod environment was created using a template provided by Code Institute.
+
+The live version of the project is deployed at GitHub pages.
+
+The procedure for deployment followed the "Creating your site" steps provided in [GitHub Docs.](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
+
+1. Log into GitHub.
+2. Locate the GitHub Repository that shall be deployed live.
+3. At the top of the repository, select Settings from the menu items.
+4. Scroll down the Settings page to the ”GitHub Pages" section and click on the ”Check it out here!”
+5. At the ”Source” section choose ”main” as Branch and root as folder and click ”Save”
+6. The website will deploy and the pages refreshes to provide the live link to the project.
 
 The live link can be found here - https://pelikantapeten.github.io/p1-nacka-tomato-society/
 
