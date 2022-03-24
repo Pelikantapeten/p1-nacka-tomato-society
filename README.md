@@ -183,12 +183,34 @@ About Us - Image 2
 
 ## Technologies used
 
-- HTML
-- CSS
+- [HTML](https://en.wikipedia.org/wiki/HTML)
+- [CSS](https://en.wikipedia.org/wiki/CSS)
 
 ## Testing 
 
-Testing content
+Test of functionality and appearance of the website has have been dealt with thru out all stages of the development phase.
+
+Test has been conducted using Google Chrome, Mozilla Firefox and Safari. Testing different devices and screen resolutions has been conducted using Google DevTools.
+
+Listed is the main issues discovered.
+
+1. Top menu disappears even though its fixed.
+ - Solution: Had to use z-index to keep the menu on top of all sections and elements, value set to 20
+2. Data sent from contact form was not correct when tested towards a form-dump site (https://jkorpela.fi/cgi-bin/echo.cgi).
+ - Solution: The name attribute in the input tags were not correct.
+3. Text alignment in input fields were not correct and it differed between Safari and Chrome.
+ - Solution: Corrected by adding text-alignment in style.css.
+4. Hero-Header image fades out in different resolutions and looks bad.
+ - Solution: Created three versions of the Hero-Header image that changes depending on resolution.
+5. When tested in Lighthouse the website received a low score on performance, 72. The reason for this was that some images did not contain proper attributes for width and height.
+ - Solution: Added values for height and width to images and score increased to 98
+6. Poor performance on smaller screens. About Us and 2022 Events sections did not place them selfs properly.
+ - Solution: Solved this by using media queries and now the elements are displayed as they should.
+7. Menu not properly aligned with header on small screens and it gets cropped and divided.
+ - Solution: Added new values in the existing media queries.
+
+Apart from these issues there have been several minor issues. The majority of these has been due to miss spelled tags, attributes and other misstakes. The first test in the W3C Validator pointed on 8 different things. 6 of them were connected to the Iframe used to display the Map from Google in the Contact section. The errors were easily corrected.
+
 
 
 ### Validator Testing 
