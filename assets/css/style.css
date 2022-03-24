@@ -100,6 +100,13 @@ h1 {
     position: relative;
 }
 
+#hero-header {
+    margin-top: 90px;
+    height: 720px;
+    width: 100%;
+    position: relative;
+}
+
 #hero-image {
     height: 720px;
     width: 100%;
@@ -128,6 +135,38 @@ h1 {
 }
 
 #hero-header-content p {
+    color: #2D5A27;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+/* Content section for contact-form-dump.html */
+
+#succsessful-form {
+    margin-top: 90px;
+    height: 720px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    padding-top: 20px;
+    background-color: #f3f3f3;
+}
+
+#successfull-form-message {
+    letter-spacing: 4px;
+    text-align: center;
+    width: 100%;
+}
+
+#successfull-form-message h2 {
+    font-size: 4vw;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #2D5A27;
+    margin-bottom: 4px;
+}
+
+#successfull-form-message p {
     color: #2D5A27;
     font-weight: 700;
     letter-spacing: 2px;

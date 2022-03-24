@@ -161,11 +161,9 @@
         <div class="contact-wrapper">
             <div class="contact-form">
                 <h2 class="contact-h2">Registration Form</h2>
-                <p id="form-info">Please feel free to contact us in regards of any type of topics. All registrations and sign ups will be followed by an email confirmation that contains payment details and such. Please look in your spam-folder if you don’t receive the email.</p>
-
-                <!-- Using https://jkorpela.fi/cgi-bin/echo.cgi as a dump for the form data. Contributed by https://jkorpela.fi/forms/testing.html -->
-    
-                <form action="https://jkorpela.fi/cgi-bin/echo.cgi" method="POST" class="form" target="_blank">
+                <p id="form-info">Please feel free to contact us in regards of any type of topics. All registrations and sign ups will be followed by an email confirmation that contains payment details and such. Please look in your spam-folder if you dont receive the email.</p>
+                
+                <form action="contact-form-dump.html" class="form">
                     <label for="name" class="form-label">Name:</label>
                     <br>
                     <input type="text" class="input-form" id="name" name="name" required>
@@ -190,7 +188,7 @@
                     <br>
                     <textarea class="input-form" name="additional_message" id="additional_message" aria-label="Enter additional optional message" rows="8"></textarea>
                     <br>
-                    <input type="submit" class="submit-button" value="Registrer" aria-label="Button that sends the form">
+                    <input type="submit" class="submit-button" value="Registrer" aria-label="Button that sends the form" href="contact-form-dump.html">
                 </form>        
             </div>
             <div class="contact-details">
