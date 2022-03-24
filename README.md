@@ -37,6 +37,7 @@ A live version of the project can be found here - https://pelikantapeten.github.
     + [2022 Events Section](#2022-events-section "2022 Events Section")
     + [Contact and Registration Section](#contact-and-registration-section "Contact and Registration Section")
     + [Footer Section](#footer-section "Footer Section")
+    + [Form-dump page](#form-dump-page "Form-dump page")
   + [Features Left to Implement](#features-left-to-implement "Features Left to Implement")
 + [Technologies used](#technologies-used "Technologies used")
 + [Testing](#testing "Testing")
@@ -158,7 +159,7 @@ About Us - Image 2
 #### Contact and Registration Section
 
   - The section contains a registration form and contact details to NTS. It also has a map that displays the location to NTS.
-  - The purpose of this section is to make contact and registration as easy as possible. The User uses the form to sign up as a member or to register interest. In order to establish direct contact as easy as possible the section also provides the User with a telephone number and an email.
+  - The purpose of this section is to make contact and registration as easy as possible. The User uses the form to sign up as a member or to register interest. In order to establish direct contact as easy as possible the section also provides the User with a telephone number and an email. If the form is used in this version it sends the User to a form-dump page with a message.
 
 ![Contact and Registration Section](/assets/images/readme-images/contact-registration-section.jpg)
 
@@ -168,6 +169,13 @@ About Us - Image 2
   - The purpose of the Footer is to provide easy access for the User to the different social media platforms were Nacka Tomato Society has a presence.
 
 ![Footer](/assets/images/readme-images/footer-section.png)
+
+#### Form-dump page
+
+  - This site contains a message when the form has been used.
+  - The purpose of this page is to give the user an indication on that the form is working and that the message has been recived.
+
+![Form-dump page](/assets/images/readme-images/form-dump-page.jpg)
 
 ### Features Left to Implement
 
@@ -196,7 +204,8 @@ Testing content
 ![Jigsaw validator](/assets/images/readme-images/jigsaw-validator.png)
 
 - Lighthouse testing
-  - Screenshot and link
+
+![Lighthouse testing score](/assets/images/readme-images/lighthouse-test-score.png)
 
 ### Unfixed Bugs
 
