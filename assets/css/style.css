@@ -590,7 +590,7 @@ footer {
     #main-menu {
         clear: both;
         float: right;
-        letter-spacing: 1px;
+        letter-spacing: normal;
     }
 
     #main-menu, #logo {
