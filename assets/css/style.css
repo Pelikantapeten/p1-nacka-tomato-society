@@ -413,6 +413,10 @@ footer {
     #main-menu, #logo {
         line-height: normal;
     }
+
+    #hero-image {
+        background: url('../images/hero-image-930.jpg') no-repeat center center;
+    }
     
     #hero-header-content {
         left: 0%;
@@ -542,18 +546,33 @@ footer {
 
     #main-menu {
         clear: both;
-        float: right; 
+        float: right;
+        letter-spacing: 1px;
     }
 
     #main-menu, #logo {
         line-height: normal;
     }
 
+    #hero-image {
+        height: 680px;
+        width: 100%;
+        background: url('../images/hero-image-480.jpg') no-repeat center center;
+    }
+    
+    #main-menu li {
+        margin-right: 15px;
+    }
+
+    #hero-header {
+        height: 680px;
+    }
+
     #hero-header-content {
         font-size: 100%;
         left: 0%;
         width: 90%;
-        height: 95px;
+        height: 100px;
     }
     
     #hero-header-content h2 {
@@ -651,6 +670,10 @@ footer {
     
     .event-paragraph a:hover {
         color: #2D5A27;
+    }
+
+    #contact-header {
+        font-size: 60%;
     }
 
     .contact-form {
