@@ -397,6 +397,11 @@ label {
     font-size: 80%;   
 }
 
+#gmap {
+    height: 250px;
+    width: 100%;
+}
+
 
 
 /* footer - Borrowed code from "Love Running" Project */
