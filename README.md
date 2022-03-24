@@ -1,6 +1,6 @@
 # Nacka Tomato Society
 
-![Responsive screenshot](/assets/images/readme-images/placeholder-900-630.jpg)
+![Responsive screenshot](/assets/images/readme-images/responsiv-screenshot.jpg)
 
 # The purpose with this project
 
@@ -13,6 +13,8 @@ The target audience are adult individuals living in the municipality of Nacka.
 This website is the first of five projects that needs to be completed in order to receive a diploma in Software Development from The Code Institute.
 
 Requirements for the project is that the website has to be static and responsive using HTML5 and CSS3.
+
+A live version of the project can be found here - https://pelikantapeten.github.io/p1-nacka-tomato-society/
 
 # Table of Content
 
@@ -184,9 +186,15 @@ Testing content
 ### Validator Testing 
 
 - HTML
-  - Screenshot of testing and link
+  - No errors were returned when passing through the official [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpelikantapeten.github.io%2Fp1-nacka-tomato-society%2F)
+
+![W3C HTML Validator](/assets/images/readme-images/w3-html-validator.png)
+
 - CSS
-  - Screenshot of tesing and link
+  - No errors were returned when passing through the official [(Jigsaw validator)](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fpelikantapeten.github.io%2Fp1-nacka-tomato-society%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+![Jigsaw validator](/assets/images/readme-images/jigsaw-validator.png)
+
 - Lighthouse testing
   - Screenshot and link
 

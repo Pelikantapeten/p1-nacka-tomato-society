@@ -544,7 +544,8 @@ footer {
     
     .event-image {
         text-align: center;
-        width: 100%;
+        width: 250px;
+        height: 250px;
         margin-top: 10px;
     }
     
@@ -701,7 +702,8 @@ footer {
     
     .event-image {
         text-align: center;
-        width: 100%;
+        width: 200px;
+        height: 200px;
         margin-top: 10px;
     }
     
