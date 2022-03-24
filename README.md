@@ -231,7 +231,10 @@ Apart from these issues there have been several minor issues. The majority of th
 
 ### Unfixed Bugs
 
-Mention unfixed bugs here 
+1. Menu still gets cropped on screens with resolutions below 320px. It looks good using Google DevTools but not on a physical device
+ - Solution: Not solved yet
+2. Images in the 2022 Events section are slightly out of alignment.
+ - Solution: Not solved yet
 
 ## Development and Deployment
 
