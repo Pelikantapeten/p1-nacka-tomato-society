@@ -98,7 +98,7 @@ The colour palette was created using [Coolors](https://fontawesome.com/).
 
 #### Typography
 
-The Google Font Montserrat [Google Font Montserrat](https://fonts.google.com/specimen/Montserrat?query=mont) was chosen as the main font with a fallback of Sans-Serif. Font weights of 300, 500 and 700 has been used on the website.
+The [Google Font Montserrat](https://fonts.google.com/specimen/Montserrat?query=mont) was chosen as the main font with a fallback of Sans-Serif. Font weights of 300, 500 and 700 has been used on the website.
 
 #### Images
 
@@ -136,7 +136,7 @@ In order to make navigation easier between the sections the navigation bar is fi
 #### About us Section
 
   - The about us sections is divided in two parts. One informative part with a longer paragraph next to an image with the founder. The second part consists of three images each with a short paragraph on the bottom.
-  - The purpose of the About Us section is to give Users a feel of what NTS is and why it was founded. It also gives the User and idea on what happens on events and gatherings. The images gives a comforting feel.
+  - The purpose of the About Us section is to give Users a feel of what NTS is and why it was founded. It also gives the User an idea on what happens on events and gatherings. The images gives a comforting feel.
 
 About Us - Image 1
 
@@ -155,7 +155,7 @@ About Us - Image 2
 
 #### Contact and Registration Section
 
-  - The section contains a registration form and contact details to NTS. It also has a map that displays the location too NTS.
+  - The section contains a registration form and contact details to NTS. It also has a map that displays the location to NTS.
   - The purpose of this section is to make contact and registration as easy as possible. The User uses the form to sign up as a member or to register interest. In order to establish direct contact as easy as possible the section also provides the User with a telephone number and an email.
 
 ![Contact and Registration Section](/assets/images/readme-images/contact-registration-section.jpg)
@@ -202,13 +202,13 @@ The live link can be found here - https://pelikantapeten.github.io/p1-nacka-toma
 
 ## Content 
 
-- Where the content is from
-- Code borrowed or inspired by
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- All text content on this site has been produced by the author of the project and is fictional. Individuals mentioned do not exist in real life and there is no Nacka Tomato Society.
+- The design of the project is inspired by Code Institutes ”Love Running” project. Code has been borrowed from that project, the Footer. It is commented in index.html and styles.css were the the borrowed code is applied. 
+- The icons in the header, contact and registration and footer were taken from [Font Awesome](https://fontawesome.com/)
 
 ## Media
 
-- All images are downloaded from Envato Elements[Envato Elements](https://elements.envato.com). They are licensed under a broad commercial license that allows them to be used in this project (Named ”P1”). The license allows usage for public purposes.
+- All images are downloaded from [Envato Elements](https://elements.envato.com). They are licensed under a broad commercial license that allows them to be used in this project (Named ”P1”). The license allows usage for public purposes.
 
 - [Link to license agreement](https://elements.envato.com/license-terms)
 

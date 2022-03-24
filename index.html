@@ -21,22 +21,22 @@
         <nav>
             <ul id="main-menu">
                 <li>
-                 <a href="#home" aria-label="">Home</a>
+                 <a href="index.html" aria-label="This link takes you to the top of the page.">Home</a>
                 </li>
                 <li>
-                    <a href="#about-section" aria-label="">About us</a>
+                    <a href="#about-section" aria-label="This link takes you to the section about us.">About us</a>
                 </li>
                 <li>
-                    <a href="#2022-events" aria-label="">2022 Events</a>
+                    <a href="#2022-events" aria-label="This link takes you to the section that lists events for 2022">2022 Events</a>
                 </li>
                 <li>
-                    <a href="#contact" aria-label="">Contact</a>
+                    <a href="#contact" aria-label="This links takes you to the contact and registration section.">Contact</a>
                 </li>
             </ul>
         </nav>
     </header>
     <section id="hero-header">
-        <div id="hero-image"></div>
+        <div id="hero-image" title="Background image that displays tomatoes on a scale"></div>
         <div id="hero-header-content">
             <h2>
                 Do you live in Nacka and Love <span class="red-text">Tomatoes?</span>
@@ -113,10 +113,10 @@
                         Open to members. We meet the first Saturday of each month. The general agenda is ”Meet and eat” combined with a seminar with a topic related to the season. As a member you will get an invite two weeks prior. Membership is free but each gathering has a fee that relates to the seminar and the menu.
                     </p>
                     <br>
-                    <a href="#contact" aria-label="">Sign up!</a>
+                    <a href="#contact" aria-label="Link that takes you to contact and registration section">Sign up!</a>
                 </div>
                 <div class="event-image">
-                    <img src="assets/images/monthly-event.jpg" alt="">
+                    <img src="assets/images/monthly-event.jpg" alt="Image of a man and a woman putting tomatoes on plates frome a buffe table">
                 </div>
             </div>
             <div class="events">
@@ -127,10 +127,10 @@
                         Full day seminar with lunch and dinner in the evening. We explore new tomato varieties and learn both new and old tricks on how to get a lot of red gold. Date for 2022 is set to the 23rd of April. Joel Andersson from Restaurant AG will be the event-chef. Register your interest of attending to save a spot.
                     </p>
                     <br>
-                    <a href="#contact" aria-label="">Register</a>
+                    <a href="#contact" aria-label="Link that takes you to contact and registration section">Register</a>
                 </div>
                 <div class="event-image">
-                    <img src="assets/images/start-of-season-event.jpg" alt="">
+                    <img src="assets/images/start-of-season-event.jpg" alt="Image that displays a small tomato plant just planted in brow soil">
                 </div>
             </div>
             <div class="events">
@@ -138,13 +138,13 @@
                     <h3>Harvest Fest</h3>
                     <br>
                     <p>
-                        Harvest time! It’s all about food, fun and competition. Who has grown the most beautiful tomato and who makes the best ketchup? Full family event with music and games. This years event will take place at Velamsunds Farmhouse. The date is set to the 27th of August. Register your interest of attending to save a spot.
+                        Harvest time! Its all about food, fun and competition. Who has grown the most beautiful tomato and who makes the best ketchup? Full family event with music and games. This years event will take place at Velamsunds Farmhouse. The date is set to the 27th of August. Register your interest of attending to save a spot.
                     </p>
                     <br>
-                    <a href="#contact" aria-label="">Register</a>
+                    <a href="#contact" aria-label="Link that takes you to contact and registration section">Register</a>
                 </div>
                 <div class="event-image">
-                    <img src="assets/images/harvest-fest-event.jpg" alt="">
+                    <img src="assets/images/harvest-fest-event.jpg" alt="Image that displays two hands holding a bowl of fresh picked tomatoes of different varieties">
                 </div>
             </div>
         </div>
@@ -163,7 +163,7 @@
                 <h2 class="contact-h2">Registration Form</h2>
                 <p id="form-info">Please feel free to contact us in regards of any type of topics. All registrations and sign ups will be followed by an email confirmation that contains payment details and such. Please look in your spam-folder if you don’t receive the email.</p>
 
-    <!-- Using https://jkorpela.fi/cgi-bin/echo.cgi as a dump for the form data. Contributed by https://jkorpela.fi/forms/testing.html -->
+                <!-- Using https://jkorpela.fi/cgi-bin/echo.cgi as a dump for the form data. Contributed by https://jkorpela.fi/forms/testing.html -->
     
                 <form action="https://jkorpela.fi/cgi-bin/echo.cgi" method="POST" class="form" target="_blank">
                     <label for="name" class="form-label">Name:</label>
@@ -178,52 +178,52 @@
                     <br>
                     <input type="email" class="input-form" id="email" name="email" required>
                     <br>
-                    <label for="events" class="form-label">Choose registration type:</label>
+                    <label for="event_type" class="form-label">Choose registration type:</label>
                     <br>
-                    <select class="input-form" id="events" name="event_type" required>
+                    <select class="input-form" id="event_type" name="event_type" aria-label="Choose event" required>
                     <option value="become_member">Become a member</option>
                     <option value="s_o_season">Start of Season</option>
                     <option value="harvest_fest">Harvest Fest</option>
                     </select>
                     <br>
-                    <label for="email" class="form-label">Additional Message:</label>
+                    <label for="additional_message" class="form-label">Additional Message:</label>
                     <br>
-                    <textarea class="input-form" name="additional_message" rows="8">
+                    <textarea class="input-form" name="additional_message" id="additional_message" aria-label="Enter additional optional message" rows="8">
                     </textarea>
                     <br>
-                    <input type="submit" class="submit-button" value="Registrer">
+                    <input type="submit" class="submit-button" value="Registrer" aria-label="Button that sends the form">
                 </form>        
             </div>
             <div class="contact-details">
-                        <h2 class="contact-h2">Contact Details</h2>
-                        <ul>
-                            <li>
-                                <p class="contact-details-p">
-                                    <i class="fa-solid fa-phone-arrow-down-left"></i> Phone:
-                                <br>
-                                    <a href="tel:+46735017993" aria-label="">+4673 501 7993</a>
-                                </p>
-                            </li>
-                            <li>
-                                <p class="contact-details-p">
-                                    <i class="fa-solid fa-at"></i> Email:
-                                <br>
-                                    <a href="mailto:mats.simonsson@sweora.se" aria-label="">mats.simonsson@sweora.se</a>
-                                </p>
-                            </li>
-                            <li>
-                                <p class="contact-details-p">
-                                    <i class="fa-solid fa-location-dot"></i>
-                                <br>
-                                    Nacka Tomato Society
-                                    <br>
-                                    Ringleksvagen 26
-                                    <br>
-                                    132 51 Saltsjo-Boo
-                                </p>
-                            </li>
-                        </ul>
-                        <iframe width="100%" height="250px" id="gmap" src="https://maps.google.com/maps?q=ringleksv%C3%A4gen%2026&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                <h2 class="contact-h2">Contact Details</h2>
+                <ul>
+                    <li>
+                        <p class="contact-details-p">
+                            <i class="fa-solid fa-phone-arrow-down-left"></i> Phone:
+                            <br>
+                            <a href="tel:+46735017993" aria-label="">+4673 501 7993</a>
+                        </p>
+                    </li>
+                    <li>
+                        <p class="contact-details-p">
+                            <i class="fa-solid fa-at"></i> Email:
+                            <br>
+                            <a href="mailto:mats.simonsson@sweora.se" aria-label="">mats.simonsson@sweora.se</a>
+                        </p>
+                    </li>
+                    <li>
+                        <p class="contact-details-p">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <br>
+                            Nacka Tomato Society
+                            <br>
+                            Ringleksvagen 26
+                            <br>
+                            132 51 Saltsjo-Boo
+                        </p>
+                    </li>
+                </ul>
+                <iframe width="100%" height="250px" id="gmap" src="https://maps.google.com/maps?q=ringleksv%C3%A4gen%2026&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
             </div>
         </div>
     </section>
