@@ -267,17 +267,26 @@ The live link can be found here - https://pelikantapeten.github.io/p1-nacka-toma
 
 ## Credits 
 
+
 For code inspiration, design inputs, help and advice. Many thanks to:
 
-Marina Terlevic
+
+Martina Terlevic
+
 Lauren-Nicole
+
 Mikaela Källberg
+
 Anders Edelsgren
+
 Malin Hedman
+
 
 Sites that has provided me with vital information:
 
+
 https://www.w3schools.com/
+
 https://stackoverflow.com
 
 And all the content in HTML-Essentials, CSS-Essentials and the Walkthrough project ”Love Running” that has provided inspiration and knowledge.

@@ -588,6 +588,10 @@ footer {
         font-size: 100%;
     }
 
+    nav {
+        font-size: 5vw;   
+    }
+
     #main-menu {
         clear: both;
         float: right;
