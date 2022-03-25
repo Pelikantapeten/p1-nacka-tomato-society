@@ -214,6 +214,8 @@ Listed is the main issues discovered.
  - Solution: Added new values in the existing media queries.
 8. Menu still gets cropped on screens with resolutions below 320px. It looks good using Google DevTools but not on a physical device
  - Solution: Solved 20220325 - Removed from Unfixed bugs. Changed View Port Width on fonts in menu.
+9. Images in the 2022 Events section are slightly out of alignment on low resolution screens.
+ - Solution: Solved 20220325 - Removed from Unfixed bugs. Changed View Port Width on fonts in menu. Changes to CSS under correct Media Query corrected this.
 
 Apart from these issues there have been several minor issues. The majority of these has been due to miss spelled tags, attributes and other misstakes. The first test in the W3C Validator pointed on 8 different things. 6 of them were connected to the Iframe used to display the Map from Google in the Contact section. The errors were easily corrected.
 
@@ -237,8 +239,7 @@ Apart from these issues there have been several minor issues. The majority of th
 
 ### Unfixed Bugs
 
-1. Images in the 2022 Events section are slightly out of alignment.
- - Solution: Not solved yet
+All known bugs in this section has been moved to the section [Testing](#testing) with solution when they have been solved. Last known bug solved 2022-03-25. No more testing will be conducted now and the project will be submitted.
 
  [Back to top](#nacka-tomato-society)
 
@@ -273,29 +274,34 @@ The live link can be found here - https://pelikantapeten.github.io/p1-nacka-toma
 
 ## Credits 
 
-
-For code inspiration, design inputs, help and advice. Many thanks to:
-
+### For code inspiration, design inputs, help and advice. Many thanks to:
 
 Martina Terlevic
+ - My fantastic mentor at Code Institute
+ 
+ Lauren-Nicole
+ - Fellow student: Thank you for all discussions and inspiration!
+ 
+ Mikaela Källberg
+ - Fellow student: Thank you for all spelling checks!
+ 
+ Anders Edelsgren
+ - Friend and Mentor: Thank you for all your knowledge and insight.
 
-Lauren-Nicole
+### Great sources
 
-Mikaela Källberg
-
-Anders Edelsgren
-
-Malin Hedman
-
-
-Sites that has provided me with vital information:
-
+Sites that has provided me with knowledge and information that has been vital to this project:
 
 https://www.w3schools.com/
-
 https://stackoverflow.com
 
 And all the content in HTML-Essentials, CSS-Essentials and the Walkthrough project ”Love Running” that has provided inspiration and knowledge.
+
+Top screenshot in this ReadMe was made using:
+
+http://ami.responsivedesign.is/
+
+Best regards
 
 [Back to top](#nacka-tomato-society)
 
