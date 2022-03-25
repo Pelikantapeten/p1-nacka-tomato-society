@@ -107,6 +107,8 @@ The [Google Font Montserrat](https://fonts.google.com/specimen/Montserrat?query=
 
 Images has been chosen in accordance to colour and content. The purpose of the website is to give a friendly look and express quality. Images has been sized in order to match design.
 
+[Back to top](#nacka-tomato-society)
+
 ## Features 
 
 The Nacka Tomato Society website is a single page website that consists of these sections:
@@ -181,6 +183,8 @@ About Us - Image 2
 
 - Later versions of this project will contain a member section were members can upload inspirational images.
 
+[Back to top](#nacka-tomato-society)
+
 ## Technologies used
 
 - [HTML](https://en.wikipedia.org/wiki/HTML)
@@ -208,6 +212,8 @@ Listed is the main issues discovered.
  - Solution: Solved this by using media queries and now the elements are displayed as they should.
 7. Menu not properly aligned with header on small screens and it gets cropped and divided.
  - Solution: Added new values in the existing media queries.
+8. Menu still gets cropped on screens with resolutions below 320px. It looks good using Google DevTools but not on a physical device
+ - Solution: Solved 20220325 - Removed from Unfixed bugs. Changed View Port Width on fonts in menu.
 
 Apart from these issues there have been several minor issues. The majority of these has been due to miss spelled tags, attributes and other misstakes. The first test in the W3C Validator pointed on 8 different things. 6 of them were connected to the Iframe used to display the Map from Google in the Contact section. The errors were easily corrected.
 
@@ -231,10 +237,10 @@ Apart from these issues there have been several minor issues. The majority of th
 
 ### Unfixed Bugs
 
-1. Menu still gets cropped on screens with resolutions below 320px. It looks good using Google DevTools but not on a physical device
+1. Images in the 2022 Events section are slightly out of alignment.
  - Solution: Not solved yet
-2. Images in the 2022 Events section are slightly out of alignment.
- - Solution: Not solved yet
+
+ [Back to top](#nacka-tomato-society)
 
 ## Development and Deployment
 
@@ -291,5 +297,5 @@ https://stackoverflow.com
 
 And all the content in HTML-Essentials, CSS-Essentials and the Walkthrough project ”Love Running” that has provided inspiration and knowledge.
 
-
+[Back to top](#nacka-tomato-society)
 

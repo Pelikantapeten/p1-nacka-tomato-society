@@ -492,6 +492,7 @@ footer {
     #about-section-content-2 {
         height: auto;
         text-align: center;
+        padding: 20px 0 50px 0;
         
     }
     
@@ -546,7 +547,7 @@ footer {
         text-align: center;
         width: 250px;
         height: 250px;
-        margin-top: 10px;
+        margin: 10px 0 0 0;
     }
     
     .event-paragraph a {
@@ -633,26 +634,30 @@ footer {
     
     #about-section-content-1 {
         text-align: center;
+        width: 100%;
+        margin: 0;
     }
     
     #about-left-content {
-       width: 90%;
-       text-align: center;
+        width: 90%;
+        text-align: center;
     }
     
     #about-right-content {
-       width: 90%; 
-       text-align: center;
+        width: 90%; 
+        text-align: center;
+        margin: 0;
     }
     
     #about-main-image {
-        width: 300px;
+        width: 250px;
         margin-top: 10px;
     }
     
     #about-section-content-2 {
         height: auto;
         text-align: center;
+        padding: 20px 0 50px 0;
         
     }
     
@@ -673,6 +678,10 @@ footer {
         width: 100%;
         
         margin: 0;
+    }
+
+    .about-2-img {
+        width: 200px;
     }
     
     .asc2-paragraph {
@@ -706,9 +715,9 @@ footer {
     
     .event-image {
         text-align: center;
-        width: 200px;
-        height: 200px;
-        margin-top: 10px;
+        width: 250px;
+        height: 250px;
+        margin: 10px 0 0 0;
     }
     
     .event-paragraph a {
